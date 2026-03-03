@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="analyse.css">
+</head>
+<body>
+     <header>
+    <h1>
+        PRESENTATION: Etat des outils aujourd'hui(Chart.js, Plotly)
+    </h1>
+  </header>
+  <section>
+    <h3>
+       Chart.js
+    </h3>
+    <p>
+        Chart.js reste une bibliothèque open source très populaire pour créer des graphiques interactifs dans les pages web.
+
+        <br>Elle est simple à apprendre pour débuter, mais aussi flexible pour des projets plus avancés.
+
+        <br>Version 4.x (actuelle) ajoute de nombreuses améliorations utiles pour les développeurs :
+
+        <br>tree-shaking pour réduire la taille du bundle (tu charges seulement ce dont tu as besoin).
+
+        <br>Palette de couleurs intégrée par défaut (facilite le styling sans config).
+
+        <br>Performances accrues, même pour de gros jeux de données.
+
+        <br>Cela veut dire que pour des applications web modernes (React, Vue, Svelte), Chart.js est un excellent choix pour intégrer des graphes dynamiques avec JavaScript
+    </p>
+
+     <h3>
+         Nouvelles tendances et outils autour de Chart.js
+     </h3>
+
+    <p>
+       
+      Chartly – générateur d’images chart
+
+        <br>Une API moderne qui prend une config Chart.js et génère des images chart PNG/SVG sur le cloud, sans serveur perso. <br>Utile pour :
+
+        <br>Générer des graphiques serveur ou automatisés (emails, rapports PDF, API automatisée).
+
+        <br>Intégration rapide avec backend ou microservices (pas besoin de navigateur pour rendre).
+
+       <br>Pour les devs backend qui veulent externaliser le rendu Chart.js, c’est une optimisation intéressante.
+    </p>
+   
+
+        
+  </section>
+
+  <section>
+    <h3>
+        Plotly
+    </h3>
+    <p>
+        Support multi-langages 
+
+        <br>Plotly n’est pas juste Python : <br>il existe aussi Plotly.js pour JavaScript.
+
+        <br>Il couvre beaucoup plus de types de graphiques que Chart.js (treemaps, Gantt, Sankey, etc.)
+    </p>
+    <h3>
+        Nouvelles fonctionnalités en Plotly.js
+    </h3>
+    <p>
+        Multi-axis shapes : <br>tu peux maintenant dessiner des formes qui traversent plusieurs subplots, très utile pour les dashboards complexes.
+
+       <br>Événements hover/click élargis : <br>les interactions ne sont plus limitées aux points de données, tu peux écouter des clics sur toute la figure.
+
+  <br>Cela montre que Plotly continue à devenir plus puissant pour les dashboards de données interactifs complexes, très utilisés dans l’industrie (finance, énergie, monitoring, etc.).
+    </p>
+    <h3>
+        Plotly + Dash
+    </h3>
+    <p>
+        Dash (le framework Python de Plotly) est régulièrement cité dans des offres d’emploi pour construire applications web analytiques avec dashboards.
+
+        C’est très demandé pour construire des interfaces web interactives sans passer par JS pur.
+    </p>
+  </section>
+</body>
+</html>

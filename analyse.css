@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: aliceblue;
+    color: #333;
+    padding: 20px;
+}
+
+header{
+    text-align: center;
+    background: #2d6cbd9d;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(35,20,11,0.826);
+}
+
+section{
+    background: white;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 10px 15px rgba(35, 20, 11, 0.826);
+}
